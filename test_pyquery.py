@@ -28,5 +28,5 @@ def test_pyquery():
 </html>
 """
     q = PyQuery(doc)
-    assert 'Hi There' in q('#target').html()
-    assert 'too-much-after' not in q('#target').html()
+    assert 'Hi There' in q('#target').html(method='html')
+    assert 'too-much-after' not in q('#target').html(method='html')
