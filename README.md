@@ -1,3 +1,6 @@
+# UPDATE
+See https://github.com/gawel/pyquery/issues/230#issuecomment-1366704753. Using the method parameter with the html function avoids this issue.
+----
 # Exercising an issue with pyquery
 
 This small repository shows an issue with pyquery's .html() methord on some platforms.
